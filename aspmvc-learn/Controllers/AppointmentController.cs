@@ -17,5 +17,9 @@ namespace aspmvc_learn.Controllers
             //string date = DateTime.Now.ToLongDateString();
             //return Ok(date);
         }
+        public IActionResult Details(int id)
+        {
+            return Ok(" we have this " + "{id}" + id + "as id");
+        }
     }
 }
