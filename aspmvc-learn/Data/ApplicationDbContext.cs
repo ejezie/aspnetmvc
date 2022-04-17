@@ -8,8 +8,10 @@ namespace aspmvc_learn.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
 
         {
-            public DbSet<Models.Item> Items { get; set; }
-    
-    }
+
+        }
+
+        public DbSet<Models.Item> Items { get; set; }
+
     }
 }
