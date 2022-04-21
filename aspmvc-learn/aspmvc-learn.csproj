@@ -22,9 +22,11 @@
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="Data\" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Views\Items\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Appointment\" />
     <Folder Include="Data\" />
+    <Folder Include="Views\Items\" />
   </ItemGroup>
 </Project>
